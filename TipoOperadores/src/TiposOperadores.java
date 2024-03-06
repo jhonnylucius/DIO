@@ -4,15 +4,13 @@ public static void main(String[] args) {
     
     int a, b;
    
-    a = 5;
+    a = 4;
     b = 6;
 
-    String Resultado = "";
-        if (a==b)
-            Resultado = "verdadeiro";
-        else
-            Resultado = "false";
+    String Resultado = a==b ? "verdadeiro" : "false";
+        
 
+         
 
     System.out.println(Resultado);        
 
