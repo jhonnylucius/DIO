@@ -6,14 +6,11 @@ public static void main(String[] args) {
    
     a = 4;
     b = 6;
-
+//condição ternária
     String Resultado = a==b ? "verdadeiro" : "false";
         
-
-         
-
-    System.out.println(Resultado);        
-
+   
+        System.out.println(Resultado);        
 
 }
 
