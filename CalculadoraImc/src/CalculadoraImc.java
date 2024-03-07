@@ -6,22 +6,20 @@ public class CalculadoraImc
         
         Scanner inputScanner = new Scanner(System.in);
 
-        int number1;
-        int number2;
-        int resultado;
+        int a;
+        int b;
+        int return;
 
         System.out.print("Enter first integer: ");
-            number1 = inputScanner.nextInt();
+            a = inputScanner.nextInt();
 
         System.out.print("Enter second integer: "); 
-            number2 = input.nextInt();
+            b = inputScanner.nextInt();
 
-        resultado = number1 / (number2 * 2);
+        return = (a / (b * 2));
     
-     if (resultado < 18.5)  { 
+     if (return < 18.5)  { 
         System.out.println("Não ha obesidade");}
     }
-
-        
 
 }
