@@ -10,7 +10,7 @@ private static Scanner entrada;
         double altura = Double.parseDouble(entrada.nextLine()); 
 // vamos calcular o IMC 
     double imc = peso / (altura * altura);
-        System.out.println("Seu IMC é: " + imc);
+        System.out.println(String.format("Seu IMC é %.2f",  imc));
 // vamos mostrar a classificação
 if(imc < 16){
     System.out.println("Sua classificação é Magreza grave"); }
