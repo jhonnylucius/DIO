@@ -23,11 +23,11 @@ else if((imc >= 18.5) && (imc < 25)){
 else if((imc >= 25) && (imc < 30)){
     System.out.println("Sua classificação é Sobrepeso"); }
 else if((imc >= 30) && (imc < 35)){
-System.out.println("Sua classificação é Obesidade Grau I"); }
+    System.out.println("Sua classificação é Obesidade Grau I"); }
 else if((imc >= 35) && (imc < 40)){
-System.out.println("Sua classificação é Obesidade Grau II"); }
+    System.out.println("Sua classificação é Obesidade Grau II"); }
 else{System.out.println("Sua classificação é Obesidade Grau III (mórbida)"); }
-System.out.println("\n");
+    System.out.println("\n");
     }
 
 }
